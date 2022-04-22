@@ -1,0 +1,52 @@
+/* Import google font style */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* view post height */
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategrey;
+
+}
+
+
+.button-container{
+
+border: 2px solid rgb(1, 17, 26);
+padding: 10px;
+border-radius: 7px;
+box-shadow: inset 0 20px 4px -19px rgb(27, 163, 141);
+
+
+}
+button{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  outline: none;
+  height: 75px;
+  width:120px;
+  border-radius: 0.6rem;
+  text-shadow: 0px 3px 5px black;
+  color: rgb(231, 231, 218);
+  background:linear-gradient(to top,rgba(63, 91, 101, 0.701),darkslategrey);
+  border: 2;
+  border: 2px solid black;
+  cursor: pointer;
+  padding: 00.2rem; 
+  box-shadow: inset 0 4px 4px -3px rgb(27, 163, 141),0 12px 0 rgba(13, 45, 66, 0.3);  
+}
+button:hover{
+  background:linear-gradient(to bottom,rgba(63, 91, 101, 0.701),darkslategrey);
+}
+button:active{
+  transform: translateY(3PX);
+  box-shadow: inset 0 1px 1px 0 rgb(27, 163, 141),0 12px 0 rgba(13, 45, 66, 0.3); 
+
+}
